@@ -6,7 +6,7 @@ A Node.JS library for interacting with the Morpheus API
 
 ## Example
 ```javascript
-var morpheus = require("../index.js"); // we need to include morpheus in our script!
+var morpheus = require("morpheus-node-lib"); // we need to include morpheus in our script!
 
 var url = "http://www.indire.it/wp-content/uploads/2015/08/pdf-sample.pdf"; // the URL for the file to convert
 var from = "pdf"; // what to convert from
