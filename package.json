@@ -1,0 +1,27 @@
+{
+  "name": "morpheus",
+  "version": "1.0.0",
+  "description": "A Node.JS library for interacting with the Morpheus API",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subjectrefresh/morpheus-node-lib.git"
+  },
+  "keywords": [
+    "convert",
+    "API",
+    "Morpheus"
+  ],
+  "author": "SubjectRefresh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/subjectrefresh/morpheus-node-lib/issues"
+  },
+  "homepage": "https://github.com/subjectrefresh/morpheus-node-lib#readme",
+  "dependencies": {
+    "request": "^2.67.0"
+  }
+}
