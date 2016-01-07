@@ -19,9 +19,9 @@ module.exports = {
                 throw error;										// why should we deal with it?
             }
             if (response.statusCode !== 200) {						// the server said we did something wrong
-                callback(body);
+                callback(JSON.parse(body));
             } else {												// all good!
-                callback(body);
+                callback(JSON.parse(body));
             }
         });
     }
